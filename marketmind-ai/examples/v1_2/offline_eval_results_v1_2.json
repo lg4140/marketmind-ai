@@ -1,0 +1,938 @@
+{
+  "evaluation_type": "deterministic offline fixture and runtime contract only",
+  "dataset": "synthetic-demo-seed-42",
+  "total": 45,
+  "passed": 45,
+  "pass_rate": 1.0,
+  "cases": [
+    {
+      "id": "ok-01",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-02",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-03",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-04",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-05",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-06",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-07",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-08",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-09",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-10",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-11",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-12",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-13",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-14",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-15",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-16",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-17",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-18",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-19",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-20",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-21",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-22",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-23",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-24",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-25",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-26",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-27",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-28",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-29",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ok-30",
+      "expected": "success",
+      "actual": {
+        "status": "success",
+        "error_code": null,
+        "tools": [
+          "profile_dataset",
+          "validate_dataset",
+          "analyze_microstructure",
+          "analyze_liquidity_events",
+          "generate_chart"
+        ]
+      },
+      "expected_error_code": null,
+      "expected_tools": [
+        "profile_dataset",
+        "validate_dataset",
+        "analyze_microstructure",
+        "analyze_liquidity_events",
+        "generate_chart"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-01",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-02",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-03",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-04",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-05",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-06",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-07",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-08",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-09",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-10",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-11",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "NO_RECORDS",
+        "tools": [
+          "profile_dataset"
+        ]
+      },
+      "expected_error_code": "NO_RECORDS",
+      "expected_tools": [
+        "profile_dataset"
+      ],
+      "passed": true
+    },
+    {
+      "id": "error-12",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-13",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-14",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    },
+    {
+      "id": "error-15",
+      "expected": "error",
+      "actual": {
+        "status": "error",
+        "error_code": "INVALID_SCOPE",
+        "tools": []
+      },
+      "expected_error_code": "INVALID_SCOPE",
+      "expected_tools": [],
+      "passed": true
+    }
+  ],
+  "limitations": "This does not evaluate LLM interpretation, live API stability, latency, user research or production readiness."
+}

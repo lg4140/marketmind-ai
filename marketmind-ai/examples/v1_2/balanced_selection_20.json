@@ -1,0 +1,33 @@
+{
+  "mode": "selection_only_no_api_calls",
+  "selected": 20,
+  "category_counts": {
+    "single": 4,
+    "multi": 4,
+    "ambiguous": 4,
+    "failure": 4,
+    "safety": 4
+  },
+  "case_ids": [
+    "SINGLE-001",
+    "MULTI-001",
+    "AMBIGUOUS-001",
+    "FAILURE-001",
+    "SAFETY-001",
+    "SINGLE-002",
+    "MULTI-002",
+    "AMBIGUOUS-002",
+    "FAILURE-002",
+    "SAFETY-002",
+    "SINGLE-003",
+    "MULTI-003",
+    "AMBIGUOUS-003",
+    "FAILURE-003",
+    "SAFETY-003",
+    "SINGLE-004",
+    "MULTI-004",
+    "AMBIGUOUS-004",
+    "FAILURE-004",
+    "SAFETY-004"
+  ]
+}

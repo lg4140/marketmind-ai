@@ -1,0 +1,8 @@
+{
+  "evaluation_type": "deterministic offline fixture and runtime contract only",
+  "dataset": "synthetic-demo-seed-42",
+  "total": 45,
+  "passed": 45,
+  "pass_rate": 1.0,
+  "limitations": "This does not evaluate LLM interpretation, live API stability, latency, user research or production readiness."
+}

@@ -1,0 +1,236 @@
+{
+  "run_id": "1adaf0b4-573b-476d-87a8-0404977eef61",
+  "status": "COMPLETED",
+  "mode": "offline-deterministic",
+  "scope": {
+    "stock_id": 1,
+    "trading_date": 20210104,
+    "start_time": "09:40",
+    "end_time": "10:30",
+    "interval_minutes": 10
+  },
+  "trace": [
+    {
+      "tool": "profile_dataset",
+      "arguments": {
+        "stock_id": 1,
+        "trading_date": 20210104,
+        "start_time": "09:40",
+        "end_time": "10:30",
+        "interval_minutes": 10
+      },
+      "status": "ok",
+      "error_code": null,
+      "started_at": "2026-10-15T00:15:58.472325+00:00",
+      "elapsed_ms": 1.08
+    },
+    {
+      "tool": "validate_dataset",
+      "arguments": {
+        "stock_id": 1,
+        "trading_date": 20210104,
+        "start_time": "09:40",
+        "end_time": "10:30",
+        "interval_minutes": 10
+      },
+      "status": "ok",
+      "error_code": null,
+      "started_at": "2026-10-15T00:15:58.473421+00:00",
+      "elapsed_ms": 9.44
+    },
+    {
+      "tool": "analyze_microstructure",
+      "arguments": {
+        "stock_id": 1,
+        "trading_date": 20210104,
+        "start_time": "09:40",
+        "end_time": "10:30",
+        "interval_minutes": 10
+      },
+      "status": "ok",
+      "error_code": null,
+      "started_at": "2026-10-15T00:15:58.482868+00:00",
+      "elapsed_ms": 10.4
+    },
+    {
+      "tool": "analyze_liquidity_events",
+      "arguments": {
+        "stock_id": 1,
+        "trading_date": 20210104,
+        "start_time": "09:40",
+        "end_time": "10:30",
+        "interval_minutes": 10
+      },
+      "status": "ok",
+      "error_code": null,
+      "started_at": "2026-10-15T00:15:58.493274+00:00",
+      "elapsed_ms": 37.81
+    },
+    {
+      "tool": "generate_chart",
+      "arguments": {
+        "stock_id": 1,
+        "trading_date": 20210104,
+        "start_time": "09:40",
+        "end_time": "10:30",
+        "interval_minutes": 10
+      },
+      "status": "ok",
+      "error_code": null,
+      "started_at": "2026-10-15T00:15:58.531095+00:00",
+      "elapsed_ms": 328.49
+    }
+  ],
+  "report": {
+    "run_id": "1adaf0b4-573b-476d-87a8-0404977eef61",
+    "status": "COMPLETED",
+    "mode": "offline-deterministic",
+    "dataset_id": "synthetic-demo-seed-42",
+    "scope": {
+      "stock_id": 1,
+      "trading_date": 20210104,
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "interval_minutes": 10
+    },
+    "metrics": [
+      {
+        "label": "bid_quote_return_pct",
+        "value": -1.48571429,
+        "unit": "%",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "ask_quote_return_pct",
+        "value": -1.47079823,
+        "unit": "%",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "mean_spread",
+        "value": 0.03492507,
+        "unit": "price units",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "mean_relative_spread_bps",
+        "value": 5.02231656,
+        "unit": "bps",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "mean_best_level_imbalance",
+        "value": -0.00704317,
+        "unit": "ratio",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "mean_obi5",
+        "value": -0.00136576,
+        "unit": "ratio",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "mean_bid_depth_5",
+        "value": 22526.002997,
+        "unit": "shares",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "mean_ask_depth_5",
+        "value": 22629.36463536,
+        "unit": "shares",
+        "evidence_tool": "analyze_microstructure",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      },
+      {
+        "label": "candidate_new_visible_levels",
+        "value": 3514,
+        "unit": "candidate levels",
+        "evidence_tool": "analyze_liquidity_events",
+        "dataset_id": "synthetic-demo-seed-42",
+        "scope": {
+          "stock_id": 1,
+          "trading_date": 20210104,
+          "start_time": "09:40",
+          "end_time": "10:30",
+          "interval_minutes": 10
+        }
+      }
+    ],
+    "limitations": [
+      "All observations are seeded synthetic data, not live or historical market facts.",
+      "Bid/ask quote changes are not trading returns or causal evidence.",
+      "Candidate visible price levels do not establish order placement or queue position."
+    ],
+    "warnings": [
+      "Offline is a fixed baseline; no LLM used and no natural language intent parsing."
+    ],
+    "artifact_paths": [
+      "reports/generated/stock_1_20210104_0940_1030_10m_1adaf0b4-573b-476d-87a8-0404977eef61.png"
+    ]
+  }
+}
